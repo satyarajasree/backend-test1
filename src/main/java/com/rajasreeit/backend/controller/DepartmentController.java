@@ -13,6 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/crm/admin")
+@CrossOrigin(origins = "https://crm-admin-website-1wpy4o1sd-satyarajasrees-projects.vercel.app/")
 public class DepartmentController {
 
     @Autowired
