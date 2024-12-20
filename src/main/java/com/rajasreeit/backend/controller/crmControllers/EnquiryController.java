@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/crm/employee")
-@CrossOrigin(origins = "https://crm-admin-website-1wpy4o1sd-satyarajasrees-projects.vercel.app")
+@CrossOrigin(origins = "https://crm-admin-website.vercel.app")
 public class EnquiryController {
 
     @Autowired
