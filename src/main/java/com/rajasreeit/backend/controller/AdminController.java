@@ -21,7 +21,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/crm/admin")
-@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:8081"})
+@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:8081","https://crm-admin-website-1wpy4o1sd-satyarajasrees-projects.vercel.app"})
 public class AdminController {
 
     @Autowired
