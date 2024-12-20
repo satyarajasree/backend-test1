@@ -20,7 +20,7 @@ public class WebConfig implements WebMvcConfigurer {
                         .allowedOrigins("https://crm-admin-website-1wpy4o1sd-satyarajasrees-projects.vercel.app")
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
-                        .allowCredentials(false);
+                        .allowCredentials(true);
             }
         };
     }
