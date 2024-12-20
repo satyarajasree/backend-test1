@@ -17,7 +17,7 @@ public class WebConfig implements WebMvcConfigurer {
 
             public void addCorsMappings(CorsRegistry registry){
                 registry.addMapping("/**")
-                        .allowedOrigins("https://crm-admin-website-1wpy4o1sd-satyarajasrees-projects.vercel.app")
+                        .allowedOrigins("https://crm-admin-website.vercel.app")
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);
